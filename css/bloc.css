@@ -1,0 +1,216 @@
+/**********************************
+
+Name: bloc Styles
+
+***********************************/
+
+
+body {
+	background: url('/img/bg.png') top repeat-x;
+	
+}
+
+div.footer {
+
+	background: url('/img/bottom.png') bottom repeat-x;
+    margin-top: 10px;
+    padding: 20px 10px 100px;   
+    text-align: center;      
+}
+
+img.picto {
+	float:right;
+	display:inline;
+	position: relative;
+}
+
+
+div.refresh {
+    float:right;
+}
+
+
+div.header {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px 10px 10px;
+}
+
+div.header div {
+
+   display:inline;
+	float: left;
+	position: relative;
+}
+.title {
+    padding-top: 50px;
+}
+
+
+.spacer {
+  clear: both;
+}
+
+
+div.bloc {
+	width: 260px;
+	font-size: 1.0em;
+	color: #333;
+
+	border-radius: 8px;
+	box-shadow: 0 0 white,1px 5px 10px #779;
+
+	-moz-border-radius: 8px 8px 8px 8px;
+    -moz-box-shadow: 0 0 #FFFFFF, 1px 5px 10px #777799;
+
+    border: 1px solid #DEDDE2;
+	
+  
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    margin-top: 10px;
+    
+    padding: 20px 10px 10px;
+    
+    display:inline;
+	float: left;
+	position: relative;
+
+	
+}
+
+
+div.bloc_right {
+
+	width: 660px;
+	font-size: 1.0em;
+	color: #333;
+
+	border-radius: 8px;
+	box-shadow: 0 0 white,1px 5px 10px #779;
+
+	-moz-border-radius: 8px 8px 8px 8px;
+    -moz-box-shadow: 0 0 #FFFFFF, 1px 5px 10px #777799;
+
+    border: 1px solid #DEDDE2;
+	
+  
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    margin-top: 10px;
+    
+    padding: 20px 10px 10px;
+        
+	float: left;
+	position: relative;
+
+	
+}
+
+div.menu_left {
+	width: 260px;
+	font-size: 1.0em;
+	color: #333;
+
+	border-radius: 8px;
+	box-shadow: 0 0 white,1px 5px 10px #779;
+
+	-moz-border-radius: 8px 8px 8px 8px;
+    -moz-box-shadow: 0 0 #FFFFFF, 1px 5px 10px #777799;
+
+    border: 1px solid #DEDDE2;
+  
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    margin-top: 10px;
+    
+    padding: 20px 10px 10px;
+    
+    display:inline;
+	float: left;
+	position: relative;
+}
+
+
+.hide {
+	display:none;
+}
+
+
+h4.menu_left {
+  color: white!important;
+  background-color: #669910!important;
+  padding-left: 19px; 
+}
+
+li.menu_left {
+   list-style-type:none;
+   padding-left: 19px;    
+   color: #333;
+   font: 1em "Lucida Grande","Lucida Sans",Verdana,Arial,sans-serif;
+   line-height: 1.5;
+   padding: 2px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+
+a {  
+   text-decoration: none;
+}
+table
+{
+border-collapse:collapse;
+ border: 1px solid #98BF21;
+}
+
+
+th
+{
+	background-color: #A7C942;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    text-align: left;
+    border: 1px solid #98BF21;    
+    padding: 3px 7px 2px;
+    border: 1px solid black;
+}
+td
+{
+	text-align:left;
+	border: 1px solid black;
+}
+tr.alt
+{
+  text-align:left; 
+  border: 1px solid black;
+}
+
+tr.alt
+{
+  text-align:left;
+  background-color: #EAF2D3;
+  color: #000000;
+  border: 1px solid black;
+}
+
+.pagination-centered {
+  text-align: center;
+}
+
+.menu > li > div > a:hover {
+ color: black;
+ background: #669910;
+}
+
+.menu > li > div > a {
+	display: block
+ 
+}
+

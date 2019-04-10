@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/LocalBusiness">
+  <head>
+
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+  
+  
+  $("#dialog").dialog( 
+          { buttons: { 
+                          "Ok": function() { $(this).dialog("close"); } 
+                      } ,
+            title: 'TOTOBasic Dialog',
+            closeText: 'hide',
+            dialogClass: 'alert',
+            draggable: false,
+            hide: 'slide',
+            resizable: false ,
+            modal: true
+                      
+          });
+         
+  });
+  </script>
+</head>
+<body style="font-size:62.5%;">
+  
+<div id="dialog" title="Dialog Title">I'm in a dialog</div>
+
+</body>
+</html>
